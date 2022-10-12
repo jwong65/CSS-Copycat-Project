@@ -44,7 +44,7 @@ img{
 ul{
     display: inline-block;
     list-style: none;
-    
+/*box-shadow: 10px 5px 5px #E45D32;*/
 }
 li{
     display: inline-block;
