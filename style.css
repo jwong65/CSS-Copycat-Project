@@ -14,10 +14,19 @@ section{
 nav{
     background-color: #E45D32;
 }
-nav>img{
+nav>.logo{
+    display: inline;
     width: 200px;
     height: 200px;
+    margin: 1em;
+    padding: 10px;
 }
 ul{
+    display: inline-block;
     list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 2em;
+    padding: 1em;
 }
