@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    border: 1px solid rgb(7, 5, 5);
 }
 header{
     display: flex;
@@ -9,4 +9,15 @@ section{
     display: flex;
     flex-direction: row;
     width:50%;
+}
+/* NAV BAR*/
+nav{
+    background-color: #E45D32;
+}
+nav>img{
+    width: 200px;
+    height: 200px;
+}
+ul{
+    list-style: none;
 }
