@@ -26,6 +26,16 @@ nav{
     margin: 1em;
     padding: 10px;
 }
+.icons{
+    border: 1px solid royalblue;
+    display: inline;
+    margin: 2em;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+}
 img{
     border: 1px solid salmon;
     width: 50px;
@@ -34,6 +44,7 @@ img{
 ul{
     display: inline-block;
     list-style: none;
+    
 }
 li{
     display: inline-block;
