@@ -57,8 +57,8 @@ li{
 section{
     display: flex;
     flex-direction: row;
-
-    height:400px;
+    background-color: blanchedalmond;
+    height:50vh;
     width:100vw;
 }
 /* Main article */
@@ -77,8 +77,8 @@ h2{
     z-index: 1;
 }
 .headarticle>img{
-    position: relative;
-    top: 25px;
+    position: absolute;
+    top: 300px;
     left: 15px;
     margin:auto;
     width: 900px;
@@ -86,14 +86,21 @@ h2{
     z-index: 0;
 }
 h3{ 
+    position:absolute;
+    top: 550px;
     margin-left: 1em;
-    display: inline-block;
+    /*display: inline-block;*/
     color: grey;
     z-index:1;
 }
 h4{
     display: inline-block;
     z-index: 1;
+    position:absolute;
+    top: 550px;
+    left:60px;
+    color:white
+
 }
 /*Row 1*/
 .sidearticle{
