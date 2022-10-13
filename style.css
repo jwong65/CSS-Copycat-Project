@@ -61,6 +61,10 @@ section{
     height:400px;
     width:100vw;
 }
+.row1{
+    width:55%;
+    background-color: aqua;
+}
 /* Main article */
 .headarticle{
     width:50%;
@@ -80,15 +84,25 @@ h2{
     top: 25px;
     left: 15px;
     margin:auto;
-    width: 1000px;
-    height: 280px;
+    width: 900px;
+    height: 320px;
     z-index: 0;
 }
-h3{
+h3{ 
     margin-left: 1em;
     display: inline-block;
-    color: grey
+    color: grey;
+    z-index:1;
 }
 h4{
+    display: inline-block;
+    z-index: 1;
+}
+/*Row 1*/
+.article1{
+    width:50%;
+    border: 2px solid darkred;
+}
+h5, h6{
     display: inline-block;
 }
