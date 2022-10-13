@@ -67,9 +67,17 @@ section{
     align-self: flex-end;
 }
 h2{ 
+    position: absolute;
     margin:10px;
+    top: 500px;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: bold;
 }
 .headarticle>img{
+    position: relative;
+    top: 25px;
+    left: 15px;
     margin:auto;
     width: 1000px;
     height: 280px;
@@ -81,5 +89,4 @@ h3{
 }
 h4{
     display: inline-block;
-
 }
