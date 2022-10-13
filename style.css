@@ -57,18 +57,15 @@ li{
 section{
     display: flex;
     flex-direction: row;
-    width:50%;
+
     height:400px;
     width:100vw;
 }
-.row1{
-    width:55%;
-    background-color: aqua;
-}
 /* Main article */
 .headarticle{
-    width:50%;
+    width: 50vw;
     align-self: flex-end;
+    background-color: yellowgreen;
 }
 h2{ 
     position: absolute;
@@ -99,10 +96,36 @@ h4{
     z-index: 1;
 }
 /*Row 1*/
+.sidearticle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    width:50vw;
+    height: 160px;
+    border: 2px red solid;
+    background-color: aqua;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    width:50vw;
+    height: 160px;
+    border: 2px rgb(214, 32, 190) solid;
+    background-color: rgb(46, 20, 141);
+}
 .article1{
     width:50%;
     border: 2px solid darkred;
 }
 h5, h6{
     display: inline-block;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    width:55%;
 }
