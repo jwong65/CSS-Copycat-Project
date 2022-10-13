@@ -73,6 +73,7 @@ h2{
     flex-wrap: wrap;
     color: black;
     font-weight: bold;
+    z-index: 1;
 }
 .headarticle>img{
     position: relative;
@@ -81,6 +82,7 @@ h2{
     margin:auto;
     width: 1000px;
     height: 280px;
+    z-index: 0;
 }
 h3{
     margin-left: 1em;
