@@ -112,16 +112,20 @@ h4{
     display: flex;
     flex-wrap: wrap;
     width: 50vw;
-    height: 300px;
+    height: 200px;
     border: 2px red solid;
     background-color: aqua;
+}
+.subtext{
+    height:auto;
+    background-color: blueviolet;
 }
 .row2{
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
     width:50vw;
-    height: 160px;
+    height: 200px;
     border: 2px rgb(214, 32, 190) solid;
     background-color: rgb(46, 20, 141);
 }
@@ -129,8 +133,16 @@ h4{
     width:50%;
     border: 2px solid darkred;
 }
-h5, h6{
+h5{
+    font-weight: bold;
+}
+h6{
     display: inline-block;
+}
+
+h7{
+    display: inline-block;
+    color: #E45D32;
 }
 
 .row2{
