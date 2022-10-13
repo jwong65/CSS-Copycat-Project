@@ -59,6 +59,10 @@ li{
 }
 /* Section part of articles */
 section{
-    height:200px;
+    height:400px;
     width:100vw;
+}
+.headarticle{
+    width:50%;
+    
 }
