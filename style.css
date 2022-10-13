@@ -61,6 +61,7 @@ section{
     height:400px;
     width:100vw;
 }
+/* Main article */
 .headarticle{
     width:50%;
     align-self: flex-end;
@@ -72,4 +73,13 @@ h2{
     margin:auto;
     width: 1000px;
     height: 280px;
+}
+h3{
+    margin-left: 1em;
+    display: inline-block;
+    color: grey
+}
+h4{
+    display: inline-block;
+
 }
