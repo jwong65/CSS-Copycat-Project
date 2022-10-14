@@ -150,9 +150,3 @@ h7{
     display: inline-block;
     color: #E45D32;
 }
-
-.row2{
-    display: flex;
-    flex-wrap: wrap;
-    width:55%;
-}
