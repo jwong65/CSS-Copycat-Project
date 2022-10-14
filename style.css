@@ -110,6 +110,7 @@ h4{
 .row1{
     margin: 1em;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 50vw;
     height: 300px;
@@ -120,16 +121,22 @@ h4{
     height:auto;
     background-color: blueviolet;
 }
+
+.articleimage{
+    height:150px;
+    width:100%;
+}
 .row2{
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width:50vw;
     height: 300px;
     border: 2px rgb(214, 32, 190) solid;
     background-color: rgb(46, 20, 141);
 }
-.article1{
+.article1, .article2, .article3,.article4{
     width:50%;
     border: 2px solid darkred;
 }
@@ -142,9 +149,6 @@ h6{
 h7{
     display: inline-block;
     color: #E45D32;
-}
-.articleimage{
-    height:150px;
 }
 
 .row2{
