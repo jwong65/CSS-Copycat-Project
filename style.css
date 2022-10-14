@@ -141,12 +141,15 @@ h4{
     border: 2px solid darkred;
 }
 h5{
-    font-weight: bold;
+    font-weight: bold; 
+    
 }
 h6{
-    display: inline-block;
+    display: inline;
+    font-size: 15px;
 }
 h7{
+    font-size: 15px;
     display: inline-block;
     color: #E45D32;
 }
