@@ -112,11 +112,11 @@ h4{
     display: flex;
     flex-wrap: wrap;
     width: 50vw;
-    height: 200px;
+    height: 300px;
     border: 2px red solid;
     background-color: aqua;
 }
-.subtext{
+.container{
     height:auto;
     background-color: blueviolet;
 }
@@ -125,7 +125,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     width:50vw;
-    height: 200px;
+    height: 300px;
     border: 2px rgb(214, 32, 190) solid;
     background-color: rgb(46, 20, 141);
 }
@@ -139,10 +139,12 @@ h5{
 h6{
     display: inline-block;
 }
-
 h7{
     display: inline-block;
     color: #E45D32;
+}
+.articleimage{
+    height:150px;
 }
 
 .row2{
