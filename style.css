@@ -42,7 +42,6 @@ a>img{
     width: 200px;
 }
 ul{
-    border: 1px solid royalblue;
     display: inline-block;
     list-style: none;
     margin: 2em;
@@ -57,7 +56,6 @@ li{
 section{
     display: flex;
     flex-direction: row;
-    background-color: blanchedalmond;
     height:50vh;
     width:100vw;
 }
@@ -65,14 +63,12 @@ section{
 .headarticle{
     width: 50vw;
     align-self: flex-end;
-    background-color: yellowgreen;
 }
 h2{ 
     position: absolute;
     margin:10px;
     top: 500px;
     flex-wrap: wrap;
-    color: white;
     font-weight: bold;
     z-index: 1;
 }
@@ -114,12 +110,9 @@ h4{
     flex-wrap: wrap;
     width: 50vw;
     height: 300px;
-    border: 2px red solid;
-    background-color: aqua;
 }
 .container{
     height:auto;
-    background-color: blueviolet;
 }
 
 .articleimage{
@@ -134,12 +127,9 @@ h4{
     flex-direction: column;
     width:50vw;
     height: 300px;
-    border: 2px rgb(214, 32, 190) solid;
-    background-color: rgb(46, 20, 141);
 }
 .article1, .article2, .article3, .article4{
     width:50%;
-    border: 2px solid darkred;
 }
 h5{
     font-weight: bold;
