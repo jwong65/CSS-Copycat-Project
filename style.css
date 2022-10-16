@@ -126,6 +126,7 @@ h4{
     height:150px;
     width:100%;
 }
+/* Row 2*/
 .row2{
     margin: 1em;
     display: flex;
@@ -141,8 +142,7 @@ h4{
     border: 2px solid darkred;
 }
 h5{
-    font-weight: bold; 
-    
+    font-weight: bold;
 }
 h6{
     display: inline;
