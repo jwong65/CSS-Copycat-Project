@@ -132,6 +132,7 @@ h4{
 }
 .article1, .article2, .article3, .article4{
     width:50%;
+    border: 1px solid black;
 }
 h5{
     font-weight: bold;
